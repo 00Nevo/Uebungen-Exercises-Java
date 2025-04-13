@@ -20,6 +20,30 @@ Customizing Eclipse’s Look and Feel
 Installing Android Studio for Mobile App Development
 Getting to Know Java with JShell
 Running JShell
+
+// why are comments not working!?
+/* test test test
+*/
+
+btw. starting from command line the java program is much shorter:
+
+jshell> System.out.println("Hello, Java!")
+
+instead doing this on exercism it was much longer:
+
+public class Greeter {
+
+    public String getGreeting() {
+        return "Hello, World!";
+    }
+
+    public static void main(String[] args) {
+        Greeter greeter = new Greeter();
+        System.out.println(greeter.getGreeting());
+    }
+}
+
+
 Running JShell from the Command Line
 Running JShell from a Shortcut
 Working with Java Expressions in JShell
